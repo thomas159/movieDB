@@ -1,6 +1,6 @@
-import React, { useEffect} from 'react'
-import { useParams} from "react-router-dom";
-import {useSelector, useDispatch} from 'react-redux'
+import React, { useEffect } from 'react'
+import { useParams } from 'react-router-dom'
+import { useSelector, useDispatch } from 'react-redux'
 import styled from 'styled-components'
 import * as allActions from './actions'
 import Container from '../Shared/Container'

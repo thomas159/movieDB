@@ -5,7 +5,7 @@ export default class NotFound extends React.Component {
   render() {
     return (
       <Container>
-     404
+        404
       </Container>
     )
   }

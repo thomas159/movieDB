@@ -1,5 +1,4 @@
 import React from 'react'
-import { render } from 'react-dom'
 import styled from 'styled-components'
 
 const Wrap = styled.div`
@@ -13,12 +12,11 @@ const Wrap = styled.div`
   background: #000;
 `
 
-const Loader = () => {
- return (
-    <Wrap>
-      loading innit..
-    </Wrap>
-  )
-}
+const Loader = () => (
+  <Wrap>
+    loading
+  </Wrap>
+)
+
 
 export default Loader

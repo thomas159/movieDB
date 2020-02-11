@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styled from 'styled-components'
-import { render } from 'react-dom'
 
 const Wrap = styled.div`
   display: flex;
@@ -57,15 +56,13 @@ const SearchButton = styled.button`
   cursor: pointer;
 }`
 
-const Search = ({ searchValue, setSearchValue }) => {
-  return (
+const Search = ({ searchValue, setSearchValue }) => (
     <Wrap>
       <SearchBar>
         <SearchTerm value={searchValue} onChange={(e) => setSearchValue(e.target.value)} type="text" />
         <SearchButton type="submit">Search</SearchButton>
       </SearchBar>
     </Wrap>
-  )
-}
+)
 
 export default Search
